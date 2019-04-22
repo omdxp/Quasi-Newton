@@ -1,5 +1,5 @@
 # Quasi Newton
-A matlab function for steepest descent optimization using Quasi Newton's method : BGFS & DFP
+A matlab function for steepest descent optimization using Quasi Newton's method : BGFS & DFP. Check out **Example.m** to see how to use it.
 
 # Summary
 1. In the first step, we update the direction of the descent. As we know, the matrix H must be positively defined, which is why, in the first iteration, by the approximation H is an identity.
