@@ -1,5 +1,5 @@
 clc, clear, close all;
-% La fonction rosenbrock:
+% Rosenbrock's function
 [x,y] = meshgrid(-1.5:.1:1.5, -1.5:.1:1.5);
 f = (1 - x).^2 + 10 * (y - x.^2).^2;
 v = [0.01,0.5,2,5,10,15,25,35,50,100,200];
